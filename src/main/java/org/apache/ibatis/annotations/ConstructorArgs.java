@@ -23,6 +23,8 @@ import java.lang.annotation.Target;
 
 /**
  * @author Clinton Begin
+ * 收集一组结果传递给一个结果对象的 构造方法。属性:value,是形式参数 的数组。
+ * https://blog.csdn.net/weixin_43866295/article/details/86594161
  */
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
